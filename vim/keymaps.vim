@@ -36,9 +36,6 @@ nnoremap <leader>= <C-w>=
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 
-" very magic 搜索
-nnoremap / /\v
-
 " 上下移动选中文本
 " https://vim.fandom.com/wiki/Moving_lines_up_or_down
 nnoremap <A-j> :m .+1<CR>==
