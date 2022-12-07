@@ -11,3 +11,5 @@
    ``` Bash
    ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
    ```
+
+* `.clang-format`: copy it directly into project folder.
