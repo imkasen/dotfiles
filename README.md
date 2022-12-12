@@ -22,7 +22,7 @@ sudo mv nvim.appimage /usr/local/bin/nvim
 # install nvchad
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 # install dependencies
-sudo apt install ripgrep
+sudo apt install ripgrep unzip
 pip3 install pysocks
 # link configuration files
 ln -s ~/dotfiles/nvchad/custom ~/.config/nvim/lua/custom
