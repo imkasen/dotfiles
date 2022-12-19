@@ -62,6 +62,7 @@ function config_neovim {
         fi
         chmod u+x /tmp/nvim.appimage
         sudo mv /tmp/nvim.appimage /usr/local/bin/nvim
+        echo "done."
         ;;
       b)
         clear
@@ -75,6 +76,7 @@ function config_neovim {
           cd "$HOME/.config/nvim"
           $PC git pull
         fi
+        echo "done."
         ;;
       c)
         clear
@@ -87,6 +89,7 @@ function config_neovim {
           err "Path '$HOME/.config/nvim/lua/' does not exist."
           exit 1
         fi
+        echo "done."
         ;;
       d)
         clear
@@ -97,6 +100,7 @@ function config_neovim {
         if command -v pip3 &> /dev/null; then
           pip3 install pysocks
         fi
+        echo "done."
         ;;
       *)
         clear
@@ -156,7 +160,7 @@ while true; do
     3)
       clear
       link_tmux
-      echo -e "done."
+      echo "done."
       ;;
     *)
       clear
