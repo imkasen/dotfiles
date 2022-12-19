@@ -45,7 +45,7 @@ M.mason = {
         -- "dockerfile-language-server",
         -- "dot-language-server",
         -- "eslint-lsp",
-        -- "gopls",
+        "gopls",
         -- "html-lsp",
         -- "json-lsp",
         "lua-language-server",
@@ -56,6 +56,20 @@ M.mason = {
         "vim-language-server",
         -- "vue-language-server",
         -- "yaml-language-server",
+
+
+        ---- DAP ----
+        -- codelldb
+
+        ---- Linter ----
+        -- markdownlint
+        -- shellcheck
+
+        ---- Formatter ----
+        -- clang-format
+        -- shfmt
+        -- stylua
+        -- yapf
     },
 }
 

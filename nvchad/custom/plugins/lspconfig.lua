@@ -15,7 +15,7 @@ local servers = {
     -- "dockerls",
     -- "dotls",
     -- "eslint",
-    -- "gopls",
+    "gopls",
     -- "html",
     -- "jsonls",
     -- "pyright",
@@ -26,19 +26,6 @@ local servers = {
     "vimls",
     -- "vuels",
     -- "yamlls",
-
-    ---- DAP ----
-    -- codelldb
-
-    ---- Linter ----
-    -- markdownlint
-    -- shellcheck
-
-    ---- Formatter ----
-    -- clang-format
-    -- shfmt
-    -- stylua
-    -- yapf
 }
 
 for _, server in ipairs(servers) do
