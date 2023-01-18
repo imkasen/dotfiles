@@ -12,7 +12,7 @@ return {
         override_options = overrides.treesitter
     },
 
-    ["kyazdani42/nvim-tree.lua"] = {
+    ["nvim-tree/nvim-tree.lua"] = {
         override_options = overrides.nvimtree
     },
 
