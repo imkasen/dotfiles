@@ -12,7 +12,7 @@ set ruler                    " 显示光标的位置
 set cursorline               " 突出显示光标当前行
 "  set signcolumn
 set colorcolumn=120          " 右侧参考线
-set cmdheight=2              " 设定命令行行数
+"  set cmdheight=2              " 设定命令行行数
 set wrap                     " 超过窗口宽度的行回绕显示
 set linebreak                " 在合适的地方折行
 set hidden
