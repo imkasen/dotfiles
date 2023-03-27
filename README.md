@@ -8,7 +8,7 @@ A simple configuration of vim, just for basic editing, without any plugins.
 ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 ```
 
-## [NvChad](https://github.com/NvChad/NvChad)
+## ~~[NvChad](https://github.com/NvChad/NvChad) 1.x~~
 
 Some configurations of [NeoVim](https://github.com/neovim/neovim) with severial enhanced plugins installed.
 

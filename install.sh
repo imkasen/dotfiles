@@ -154,7 +154,7 @@ while true; do
       ;;
     2)
       clear
-      config_neovim
+      # config_neovim
       continue
       ;;
     3)
