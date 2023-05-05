@@ -5,7 +5,7 @@
 A simple configuration of vim, just for basic editing, without any plugins.
 
 ``` Bash
-ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.vimrc ~/.vimrc
 ```
 
 ## ~~[NvChad](https://github.com/NvChad/NvChad) 1.x~~

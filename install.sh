@@ -24,7 +24,7 @@ err() {
 # Link .vimrc
 function link_vimrc {
   if [[ ! -f "$HOME/.vimrc" ]]; then
-    ln -s "$DIR/vim/.vimrc" "$HOME/.vimrc"
+    ln -s "$DIR/.vimrc" "$HOME/.vimrc"
   else
     err "'.vimrc' already exists."
     exit 1
