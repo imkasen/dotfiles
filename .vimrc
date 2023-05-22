@@ -139,9 +139,15 @@ nnoremap <C-Up> <C-w>-
 nnoremap <C-Down> <C-w>+
 nnoremap <leader>= <C-w>=
 
-" Buffer 间跳转
-nnoremap <Tab> :bnext<CR>
-nnoremap <S-Tab> :bprevious<CR>
+" Tab 间跳转，用于 Visual Studio 插件：vsVim
+nnoremap <Tab> :tabn<CR>
+nnoremap <S-Tab> :tabp<CR>
+" 用于终端下的 vim
+if has('unix') || has('mac')
+    " Buffer 间跳转
+    nnoremap <Tab> :bnext<CR>
+    nnoremap <S-Tab> :bprevious<CR>
+endif
 
 " 上下移动选中文本
 " https://vim.fandom.com/wiki/Moving_lines_up_or_down
